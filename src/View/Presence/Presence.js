@@ -5,7 +5,7 @@ import { LocationCard } from '../../Components/Presence/LocationCard';
 import img from '../Presence/ournetwork-img.jpg'
 
 export function Presence(){
-    return(
+    return (
 <>
 
 <img src={img} className='mainimg'></img>
