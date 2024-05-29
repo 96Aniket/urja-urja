@@ -2,10 +2,11 @@ ul{
     color:rgb(243, 120, 32);
     font-size: 15pt;
     margin: 10px;
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 li{
-    font-size: 13pt;
+    font-size: 12pt;
     margin: 5px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     
