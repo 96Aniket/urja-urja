@@ -12,7 +12,7 @@ export function Presence(){
 <Navbar/>
 <img src={img} className='mainimg'></img>
         <h2 className='mainheading'> STORE LOCATION </h2>
-                <p className='line'>_______</p>
+                <p className='line'>_________</p>
                 <p className='des'>URJA GLOBAL LIMITED IS IN ONE OF INDIA'S LEADING RENEWABLE ENERGY DEVELOPERS</p>
 
 

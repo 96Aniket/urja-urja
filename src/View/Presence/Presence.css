@@ -1,9 +1,9 @@
 .mainheading{
-
-    margin-right: 400px;
+text-align: center;
+   
     color: #f97316;
     font-family: sans-serif;
-    weight: 700;
+    font-weight: 700;
 
     
     
@@ -22,9 +22,10 @@
         margin-bottom: 20px;
     }
     .des{
+        text-align: center;
         font-size: medium;
-        weight: 500;
-        margin-left: 100px;
+       font-weight: 500;
+        
         color: black;
         font-family: sans-serif;
     }
