@@ -1,10 +1,10 @@
 import './Products.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
-export default function Card(props) {
+export default function ProductCard(props) {
   return (
     <>
-      <div className='card'>
+     <div className='card'>
 
         <img className='img' src={props.scooterbanner} />
       </div>
@@ -39,7 +39,7 @@ export default function Card(props) {
          <h1><b><u>E-zess</u></b></h1>
 
 </div>
-<div >
+<div>
 <p  className='col'>
    Urja Introducing the best electric scooter E-Life with
       an unrivalled range up to 100Kms<br /> per charge. It features a sleek & modern design,
@@ -70,4 +70,4 @@ export default function Card(props) {
 
 
 
-
+ 
