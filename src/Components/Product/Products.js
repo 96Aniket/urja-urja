@@ -1,5 +1,5 @@
 import './Products.css'
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css'  
 
 export default function ProductCard(props) {
   return (
