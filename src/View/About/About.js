@@ -1,6 +1,6 @@
 import './About.css';
 import img from '../About/windmil.png'
-import { Navbar } from '../../Components/Navbar/Navbar';
+import  Navbar  from '../../Components/Navbar/Navbar';
 import { Footer } from '../../Components/Footer/Footer';
 function About() {
   return (
