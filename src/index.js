@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 
 
 import Home from './View/Home/Home';
-// import { Form } from '../src/view/Career/Career';
-// import { Network } from  '../src/view/Presence/Presence';
-// import Card from '../src/component/Products/Products';
-// import About from './component/About/About';
-// import Catelogue from './component/Catelogue/Catelogue';
-// import Contact from './component/Contact/Contact';
+import {Career} from './View/Career/Career-Pooja';
+import {Presence} from './View/Presence/Presence';
+import Card  from '../src/View/Home/Product/Products';
+// import About from './View/About/About';
+// import Catelogue from './View/Catelogue/Catelogue';
+// import Contact from './View/Contact/Contact';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 
@@ -18,18 +18,18 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
       element:<Home/>,
       
     },
-    // {
-    //   path:'/Career',
-    //   element:<Form/>,
-    // },
-    // {
-    //   path:'/Presence',
-    //   element:<Network/>
-    // },
-    // {
-    //   path:'/Card',
-    //   element:<Card/>
-    // },
+    {
+      path:'/career',
+      element:<Career/>,
+    },
+    {
+      path:'/Presence',
+      element:<Presence/>
+    },
+    {
+      path:'/Card',
+      element:<Card/>
+    },
     // {
     //   path:'/About',
     //   element:<About/>
