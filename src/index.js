@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import Home from './View/Home/Home';
 import {Career} from './View/Career/Career-Pooja';
 import {Presence} from './View/Presence/Presence';
-import Card  from '../src/View/Home/Product/Products';
+import  Card from './View/Product/Products';
 import About from './View/About/About';
 import Catelogue from './View/Catelogue/Catelogue';
 import Contact from './View/Contact/Contact';
