@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Presence.css'
-import { LocationCard } from '../../Components/Presence/LocationCard';
+import { LocationCard } from '../../Components/Presence/LocationCard-Pooja';
 import img from '../Presence/ournetwork-img.jpg'
 
 export function Presence(){
