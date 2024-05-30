@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import One from './1.png';
 import Banner from './banner.png';
-import './Cravsel.css'
+import './Cravsel.css';
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -12,17 +12,19 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel className='crous' activeIndex={index} onSelect={handleSelect}>
+    <div className='do'>
+    <Carousel  activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img className='pic' src={One}/>
-        
+        <img className='imm' src={One}/>
+       
       </Carousel.Item>
       <Carousel.Item>
-        <img className='pic' src={Banner}/>
+        <img className='imm' src={Banner} />
         
       </Carousel.Item>
       
     </Carousel>
+    </div>
   );
 }
 

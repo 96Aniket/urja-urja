@@ -8,6 +8,7 @@ export default function Home(){
  return(
  <>
   <Navbar/>
+  
   <UncontrolledExample/>
   <Inform/>
   <Footer/>
