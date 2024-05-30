@@ -1,6 +1,8 @@
-import Investor from '../Components/Investor/Investor';
-import images from '../Components/Investor/image.png'
-export default function Invest(){
+import Investor from '../../Components/Navbar/Investor/Investor';
+import images from '../../Components/Navbar/Investor/image.png';
+import watch from '../../Components/Navbar/Investor/watch.png';
+import watch from '../../Components/Navbar/Investor/cloude.png';
+export default function Card(){
     return(
     <>
         <Card images={images} text='BUSINESS RESPONSIBILITY POLICY' watch={watch} cloude={cloude}/>
