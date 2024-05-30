@@ -1,80 +1,60 @@
-.card {
+.card{
     display: inline-block;
 }
-
-.H1 {
-    /* display: flex; */
+.H1{
     margin-top: 0px;
-
 }
-
-.Head {
+.Head{
     margin-left: 50px;
     color: #f97316;
     margin-top: 100px;
-
 }
-
-.Btn {
+.Btn{
     height: 45px;
     width: 140px;
     background-color: #f97316;
     border-radius: 25px;
     border: 2px #f97316;
-    color: aliceblue;
+    color:whitesmoke;
     position: relative;
     top: -140px;
     left: 50px;
     margin: 5px;
 }
-
-.scooter {
+.scooter{
     position: relative;
     top: -480px;
-    padding: 40px;
-    height: 500px;
-    width: 500px;
-    border-radius: 60px;
-    margin-left: 700px;
-
+padding: 40px;
+height: 500px;
+width: 500px;
+border-radius: 60px;
+margin-left: 700px;
 }
-
-.container {
+.container{
     display: flex;
+
 }
-
-
-.row {
+.roe{
     margin: 120px;
-
-    /* /* margin-top: -10px; */
     margin-left: 50px;
     text-align: start;
-    padding-left: 60px;
 }
-
-.scooty {
-
-    padding: 40px;
-    height: 500px;
-    width: 500px;
-    border-radius: 60px;
-    margin-top: -480px;
-
-
+.scooty{
+padding: 40px;
+height: 500px;
+width: 500px;
+border-radius:60px;
+margin-top: -480px;
 }
-
-.head {
+.head{
     margin-left: 500px;
     color: #f97316;
     margin-top: -390px;
 }
-
-.col {
+.col{
     margin-left: 500px;
 }
-
-.imge {
+.imge{
     height: 45px;
     width: 140px;
     border-radius: 25px;
@@ -83,10 +63,8 @@
     border: #f97316;
     position: relative;
     left: 480px;
-     right: 50px;
-     top: 15px;
-     margin: 5px;
-     margin-left: 15px;
-     
-
+    right: 50px;
+    top: 15px;
+    margin: 5px;
+    margin-left: 15px;
 }
