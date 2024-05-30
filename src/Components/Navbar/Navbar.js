@@ -4,7 +4,7 @@ import logos from './logos-removebg-preview.png'
 // import './Home.css'
 import './Navbar.css'
 
-export function Navbar (){
+export default function Navbar (){
     return(
 
       <>
