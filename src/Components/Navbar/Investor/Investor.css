@@ -14,7 +14,7 @@ background-color: rgba(var(--bs-white-rgb));
     width: 40px;
     margin: 15px;
 
-}
+ }  
 .div{
     height: 50px;
     width: 40px;
@@ -25,24 +25,28 @@ background-color: rgba(var(--bs-white-rgb));
     margin-left: 75px;
     position: relative;
     top: -50px;
-    font-size: small;
+    font-size: x-small;
     font-family:'Raleway', sans-serif;
+    color: black;
 }
 .pic{
     height: 50px;
-    width: 25px;
+    width: 27px;
     position: relative;
-    top: -105px;
-    left: 90%;
-    background-color:#f97316;
+    top: -130px;
+    left: 307px;
     border-radius: 9px;
+    background-color:#f97316;
+
 }
 .pic3{
-    height: 70px;
-      width: 30px;
-      position: relative;
-   background-color: rgba(65, 252, 65, 0.388);
-   border-radius:  9px;
-   top: -95px;
-   left: 90%;
+    height: 60px;
+      width: 27px;
+     position: relative;
+     top: -170px;
+     left: 303px;
+     background-color: #5bf66a;
+     border-radius: 9px;
+     padding: 2px;
+     margin: 5px;
 }

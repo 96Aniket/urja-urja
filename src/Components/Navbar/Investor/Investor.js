@@ -2,10 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Investor.css';
 
-export default function Card(info) {
+export default function InvestCard(info) {
     return (
         <>
-     
+    
          <div className='display'>
                 <div className='card'>
             
