@@ -4,7 +4,7 @@ import scooty from '../image/scooty.png';
 import bike from '../image/bike.png';
 import Navbar  from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
-export default function Product(){
+export default function Productcard(){
     return(
         <>
         <Navbar/>

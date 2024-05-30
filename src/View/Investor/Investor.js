@@ -1,4 +1,4 @@
-import Investor from '../../Components/Navbar/Investor/Investor';
+
 import images from '../../Components/Navbar/Investor/image.png';
 import watch from '../../Components/Navbar/Investor/watch.png';
 import cloude from '../../Components/Navbar/Investor/cloude.png';
