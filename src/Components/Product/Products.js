@@ -1,7 +1,7 @@
 import './Products.css'
 import 'bootstrap/dist/css/bootstrap.css'  
 
-export default function Card(props) {
+export default function Scooter(props) {
   return (
     <>
      <div className='card'>
