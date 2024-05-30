@@ -1,10 +1,10 @@
 import './Catelogue.css';
-// import img2 from './solar.jpg';
-import img from './windmil.png';
+
+import img from '../Catelogue/windmil.png';
 function Catelogue() {
   return (
   <>
-  {/* <div ><img src={img2} className='crousal'/></div> */}
+ 
     <div className='container'>
       
        <div className='text'>
