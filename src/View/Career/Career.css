@@ -1,10 +1,12 @@
-.body{
+.body {
     background-color: rgb(253, 251, 251);
 }
 
 
 
-.mainheading{
+
+
+.heading {
 
 text-align: center;
 color: #f97316;
@@ -14,37 +16,68 @@ font-weight: 900;
 
 }
 .line{
+    text-align: center;
     margin-left: 510px;
     font-size: 85px;
     margin-top: -100px;
 }
 
 .para{
+
     text-align: center;
-    font-weight: 500;
+    color: #f97316;
     font-family: sans-serif;
+    font-weight: 800;
+    font-size:35px ;
+
+
+
+
+}
+
+.line {
+
+
+    color: black;
+        margin-right: 80px;
+        font-size: 100px;
+        margin-top: -80px;
+    
+   
 }
 
 
-input{
+
+.paragraph {
+    color: black;
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+input {
     border: 1px solid black;
     width: 40em;
     height: 2.5em;
     /* margin: 5px; */
 }
-.btn{
+
+.btn {
     background-color: #f97316;
     color: white;
     font-weight: 600;
     margin-left: 17vw;
-   margin-top: 40PX;
-    padding: 10px;
+    margin-top: 40PX; 
+    padding: 0px;
     width: 10vw;
     text-align: center;
-    /* padding-bottom: 20px; */
+    
 }
 
-form{
+form {
     height: 50vh;
     width: 50vw;
     /* border: 1px solid black; */
@@ -52,9 +85,10 @@ form{
     margin: auto;
     padding: 20px;
 }
-.mainimg{
-width: 1400px;
-height: 450px;
-margin-bottom: 20px;
+
+.mainimg {
+    width: 1400px;
+    height: 450px;
+    margin-bottom: 20px;
 
 }

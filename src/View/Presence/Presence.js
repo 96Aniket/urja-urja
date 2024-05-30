@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './Presence.css'
 import { LocationCard } from '../../Components/Presence/LocationCard-Pooja';
 import img from '../Presence/ournetwork-img.jpg'
+import { Footer } from '../../Components/Footer/Footer'
+import { Navbar } from 'react-bootstrap';
 
 export function Presence(){
     return (
 <>
-
+<Navbar/>
 <img src={img} className='mainimg'></img>
         <h2 className='mainheading'> STORE LOCATION </h2>
-                <p className='line'>________</p>
+                <p className='line'>_________</p>
                 <p className='des'>URJA GLOBAL LIMITED IS IN ONE OF INDIA'S LEADING RENEWABLE ENERGY DEVELOPERS</p>
 
 
@@ -20,6 +22,11 @@ export function Presence(){
 <LocationCard h1='Zaffar Brothers' info1='Barabanti, Uttar Pradesh' h2='Alutech' info2='52E/ 2A/ 42, Tashkand Marg, Civil Lines, Pyaragraj, Uttar Pradesh- 211001' h3='Hindon Traders' info3='169, Sanjay Colony, Arthala, Mohan Nagar, Ghaziabad, 201007'/>
 <LocationCard h1='Loodo Ventures Pvt. Ltd.' info1='JNC Plot No.6, Sector- 5, Vaishali- 110025' h2='Shree Motors' info2='A/P Dudhgaon, Tal- miraj,Sangali, Maharashtra- 416316' h3='Mansa Automobile' info3='1/1/1 Plot 1, behind Jyoti farm, Opposite Essar Petrol pump, Kadambvan Society, Ambad Link Road, Nashik, Maharashtra- 422007'/>
 <LocationCard h1='Manakkunel Green Ventures' info1='13/ 113, 114, Kagingada chethipuzha kottayam, Kerala- 32' h2='Shri ram Enterprises' info2='JP Chowk Jai Prakash Nagar, Siwan, Bihar- 841226' h3='Stom Electric' info3='Bargarh, Brahmabihar, near Ram Mandir goru market road, Odisha- 768028'/>
+
+
+
+<Footer/>
+
 
 </>
 
