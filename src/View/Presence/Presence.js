@@ -4,7 +4,7 @@ import './Presence.css'
 import { LocationCard } from '../../Components/Presence/LocationCard-Pooja';
 import img from '../Presence/ournetwork-img.jpg'
 import { Footer } from '../../Components/Footer/Footer'
-import { Navbar } from 'react-bootstrap';
+import  Navbar  from '../../Components/Navbar/Navbar';
 
 export function Presence(){
     return (

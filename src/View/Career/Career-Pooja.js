@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import './Career.css'
 import img from './career-img.jpg'
-import { Navbar } from 'react-bootstrap'
+import  Navbar  from '../../Components/Navbar/Navbar'
 import { Footer } from '../../Components/Footer/Footer'
 
 export function Career() {
@@ -14,7 +14,7 @@ export function Career() {
                 <p className='line'>___________</p>
                 <p className='paragraph'> If you're interested in joining our team, please submit your resume through our website. We review applications on a rolling basis, and we'll be in touch if we  believe you're a good fit for <br /> one of our open positions. Thank you for considering a career with us. We look forward to hearing from you!</p>
 
-                <form>
+                <form className='form'>
                     <label>First Name</label><br />
                     <input type='text' placeholder='First Name' className='text-type'></input><br /><br />
 
@@ -25,6 +25,7 @@ export function Career() {
                     <input type='file' className='text-type'></input><br />
 
                     <button className='btn'>SEND</button>
+                    
                 </form>
                 
 
