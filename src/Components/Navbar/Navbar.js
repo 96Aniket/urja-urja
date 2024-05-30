@@ -24,12 +24,12 @@ export default function Navbar (){
         
         
 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pagess">Company Overview</p></a>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/About"><p className="pages">About</p></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Electric Vehicle</p></a>
+          <a class="nav-link active" aria-current="page" href="/Card"><p className="pages">Product</p></a>
         </li>
 
 
@@ -39,22 +39,22 @@ export default function Navbar (){
         
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Dealer Zone</p></a>
+          <a class="nav-link active" aria-current="page" href="/Presence"><p className="pages">Our Network</p></a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/career"><p className="pages">Careers</p></a>
         </li>
 
+        
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Company Profile</p></a>
+          <a class="nav-link active" aria-current="page" href="/Catelogue"><p className="pages">Catelogue</p></a>
         </li>
-
       
        
          
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Contact Us</p></a>
+          <a class="nav-link active" aria-current="page" href="/Contact"><p className="pages">Contact Us</p></a>
         </li>
         
 
