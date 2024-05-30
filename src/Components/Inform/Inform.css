@@ -1,10 +1,10 @@
-p{
+.pp{
     font-size: 30pt;
     color: rgb(242, 111, 17) ;
     font-family: fantasy;
     text-align: center;
 }
-h1{
+.hh{
     font-size: 15pt;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
@@ -28,7 +28,7 @@ hr{
     opacity: 1;
     border-radius: 50px;
 }
-h2{
+.hhh{
     padding: 10px 0 0 34%;
     font-family: fantasy;
 }
