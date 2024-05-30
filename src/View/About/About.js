@@ -1,5 +1,6 @@
 import './About.css';
-import img from '../About/windmil.png'
+import img from '../About/windmil.png';
+import solar from '../Catelogue/solar.jpg';
 import  Navbar  from '../../Components/Navbar/Navbar';
 import { Footer } from '../../Components/Footer/Footer';
 function About() {
@@ -7,12 +8,13 @@ function About() {
 
   <>
   <Navbar/>
-    <div className='container'>
+    <div>
+      <img src={solar} className='solar'/>
        <div className='text'>
-           <h1 className='head'><u>URJA GLOBAL LIMITED</u></h1>
-           <p>
+           <h1><u>URJA GLOBAL LIMITED</u></h1>
+           <p className='bold'>
       <b > URJA GLOBAL LIMITED IS IN ONE OF INDIA'S LEADING RENEWABLE ENERGY DEVELOPERS</b>
-      </p> <br></br><br></br>
+      </p>
       </div>  
        </div>
        
@@ -57,7 +59,7 @@ function About() {
                       of Solar Energy Systems to cater to almost the complete range of customer requirements
                      </p>
           </div>
-   
+   <div className='lastelement'></div>
     
     </div>
     <Footer/>

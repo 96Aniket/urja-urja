@@ -2,11 +2,15 @@ import './Contact.css';
 import location from '../Contact/location.png'
 import tel from '../Contact/te.jpg'
 import email from '../Contact/mail.jpg'
-
+import  Navbar  from '../../Components/Navbar/Navbar';
+import { Footer } from '../../Components/Footer/Footer';
 function Contact() {
   return (
   <>
-    <div className='heading'>
+  <Navbar/>
+  <div className='body'>
+    
+  <div >
             <h1 className='head'><u>CONTACT US</u></h1>
      <p>
       <b >AT URJA GLOBAL we care about our customer's</b>
@@ -101,7 +105,10 @@ function Contact() {
     <h4>EMAIL ID</h4>
     <span>cs@urjaglobal.in</span>
      </div> 
-     <div><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2820044.0063589807!2d77.75945713201415!3d27.064524613350347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1surja%20global%20limited!5e0!3m2!1sen!2sin!4v1716788045074!5m2!1sen!2sin" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    
+   <div><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2820044.0063589807!2d77.75945713201415!3d27.064524613350347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1surja%20global%20limited!5e0!3m2!1sen!2sin!4v1716788045074!5m2!1sen!2sin" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+ <Footer/>
+  </div>
   </>
    
   );
