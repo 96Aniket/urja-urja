@@ -9,7 +9,7 @@ export default function Card(){
     return(
         <>
         <Navbar/>
-        < ProductCard scooterbanner={scooterbanner} scooty={scooty} bike={bike}/>
+        <Card scooterbanner={scooterbanner} scooty={scooty} bike={bike}/>
         <Footer/>
         </>
     );
