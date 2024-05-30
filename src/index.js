@@ -9,7 +9,7 @@ import  Card from './View/Product/Products';
 import About from './View/About/About';
 import Catelogue from './View/Catelogue/Catelogue';
 import Contact from './View/Contact/Contact';
-import {Investor} from './View/Investor/Investor';
+
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 
@@ -43,10 +43,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
       path:'/Contact',
       element:<Contact/>
     }
-   {
-    path:'/Investor',
-    element:<Investor/>
-   }
+  
     
   ])
 
