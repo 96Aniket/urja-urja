@@ -1,12 +1,12 @@
 import './Products.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
-export default function Card(props) {
+export default function Productcard(props) {
   return (
     <>
       <div className='card'>
 
-        <img className='img' src={props.img1} />
+        <img className='img' src={props.scooterbanner} />
       </div>
 
       <div className='H1'>
@@ -30,10 +30,10 @@ export default function Card(props) {
   </div>
 
 
-        < img className='scooter' src={props.pic} />
+        < img className='scooter' src={props.scooter} />
       </div>
       <div>
-      < img className='scooty' src={props.picture} />
+      < img className='scooty' src={props.bike} />
     </div>
     <div className='head'>
          <h1><b><u>E-zess</u></b></h1>
