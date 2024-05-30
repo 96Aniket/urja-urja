@@ -4,12 +4,12 @@ import logos from './logos-removebg-preview.png'
 // import './Home.css'
 import './Navbar.css'
 
-export function Navbar (){
+export default function Navbar (){
     return(
 
       <>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary m-0 p-0">
+  <div class="container-fluid m-0 p-0">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,12 +24,12 @@ export function Navbar (){
         
         
 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pagess">Company Overview</p></a>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/About"><p className="pages">About</p></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Electric Vehicle</p></a>
+          <a class="nav-link active" aria-current="page" href="/Card"><p className="pages">Product</p></a>
         </li>
 
 
@@ -39,22 +39,22 @@ export function Navbar (){
         
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Dealer Zone</p></a>
+          <a class="nav-link active" aria-current="page" href="/Presence"><p className="pages">Our Network</p></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Careers</p></a>
+          <a class="nav-link active" aria-current="page" href="/career"><p className="pages">Careers</p></a>
         </li>
 
+        
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Company Profile</p></a>
+          <a class="nav-link active" aria-current="page" href="/Catelogue"><p className="pages">Catelogue</p></a>
         </li>
-
       
        
          
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Contact Us</p></a>
+          <a class="nav-link active" aria-current="page" href="/Contact"><p className="pages">Contact Us</p></a>
         </li>
         
 

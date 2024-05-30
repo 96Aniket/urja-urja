@@ -1,9 +1,9 @@
 import './Contact.css';
-import location from './location.png'
-import tel from './te.jpg'
-import email from './mail.jpg'
+import location from '../Contact/location.png'
+import tel from '../Contact/te.jpg'
+import email from '../Contact/mail.jpg'
 
-function Contact(props) {
+function Contact() {
   return (
   <>
     <div className='heading'>

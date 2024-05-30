@@ -1,8 +1,12 @@
 import './About.css';
-import img from './windmil.png'
+import img from '../About/windmil.png'
+import  Navbar  from '../../Components/Navbar/Navbar';
+import { Footer } from '../../Components/Footer/Footer';
 function About() {
   return (
+
   <>
+  <Navbar/>
     <div className='container'>
        <div className='text'>
            <h1 className='head'><u>URJA GLOBAL LIMITED</u></h1>
@@ -14,7 +18,7 @@ function About() {
        
           <div className='main'>
           <div className='para'>
-             <p>Urja Global Limited is in one of India’s leading Renewable Energy developers and operators.
+             <p>Urja Global Limited is in one of India's leading Renewable Energy developers and operators.
                  Urja is engaged in design, consultancy, integration, supply, installation, commissioning 
                  & maintenance of off-grid and grid connected Solar Power Plants. We are approved Channel 
                  Partners of Ministry of New and Renewable Energy (MNRE), Govt. of India.
@@ -29,11 +33,11 @@ function About() {
                 Limited is promoted by the promoters group hailing from Rajasthan, India.
                </p>
                <p>
-               With more than two decades of experience, they have established as one of the country’s leading
+               With more than two decades of experience, they have established as one of the country's leading
                 industrial companies and a strong well-diversified conglomerate which is active in: Renewable 
                 Energy, IT&ITES, Tours & Travels, and Education & Training having presence across the globe.
                </p>
-               <p>We assure customer’s satisfaction in terms of product quality and service. Urja offers outstanding
+               <p>We assure customer's satisfaction in terms of product quality and service. Urja offers outstanding
                  quality varied Solar Products which makes use of green and clean energy simple viz. Solar Home
                   Lighting Systems,Solar Lanterns, Solar Street Lighting Systems, Roof Top Systems, Solar PV
                    Pannels with quality and standards conforming to ISO 9001 . All our Solar products range 
@@ -56,6 +60,7 @@ function About() {
    
     
     </div>
+    <Footer/>
   </>
    
   );
