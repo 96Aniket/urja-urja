@@ -1,4 +1,4 @@
-.brandlogo{
+/* .brandlogo{
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -38,7 +38,8 @@
     margin: 25px 0 0 0px;
 }
 body{
-    /* background-image: url("../image/4907157.jpg"); */
-    position:sticky;
+    background-image: url("./C:/Users/Shivam/OneDrive/Desktop/urja-urja/src/Home/4907157.jpg");
+    position:fixed;
     background-size: cover;
-}
+    background-attachment: fixed;
+} */

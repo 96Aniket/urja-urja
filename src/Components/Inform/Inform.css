@@ -68,3 +68,13 @@ h2{
 
 }
 
+/* body{
+    background-image: url('./4907157.jpg');
+    
+    background-Size: cover; 
+    background-Repeat: no-repeat;
+}  */
+.sss{
+    background-repeat: no-repeat;
+    background-size: cover;
+}

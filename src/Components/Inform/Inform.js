@@ -3,9 +3,10 @@ import ttte from './ttte.PNG'
 import battery from './battery.png'
 import D1 from './b1.png'
 import D2 from './b2.png'
+import D3 from './4907157.jpg'
 export  function Inform (){
     return(
-        <>
+        <div   style={ { backgroundImage: `url(${D3})`}}>
         <p>WELCOME TO <br/>URJA GLOBAL LIMITED</p><hr/>
         <h1>We at Urja are committed to providing world-class services to rapidly develop India focusing on rural electrification especially in hilly areas, forest regions, deserts, islands, far flung villages, unmanned locations and other areas which require reliable and uninterrupted power supply. With a strong design and manufacturing back ground UGL has developed themselves as a leading manufacturer of Solar Energy Systems to cater to almost the complete range of customer requirements</h1>
         <button>Know More-</button>
@@ -27,6 +28,8 @@ export  function Inform (){
         <div><img src={D2} className='side' alt="..."/></div>
     </div>
     
-        </>
+        </div>
     )
 }
+
+

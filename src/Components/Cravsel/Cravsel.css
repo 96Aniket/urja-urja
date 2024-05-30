@@ -1,6 +1,10 @@
 .pic{
-    width: 100%;
-    height: 600px;
-    margin: 0 0 0 0;
+    /* width: 100%; */
     
+    background-size: cover;
+    
+}
+.Hii{
+    margin: 0;
+    padding: 0;
 }
