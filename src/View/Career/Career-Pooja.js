@@ -22,7 +22,7 @@ export function Career() {
                     <input type='text' placeholder='Last Name' className='text-type'></input><br /><br />
 
                     <label>Upload CV</label><br />
-                    <input type='file' className='text-type'></input><br />
+                    <input type='file' className='text-type'></input><br/>
 
                     <button className='btn'>SEND</button>
                     
