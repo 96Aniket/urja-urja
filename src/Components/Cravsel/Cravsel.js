@@ -12,7 +12,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel className='Hii' activeIndex={index} onSelect={handleSelect}>
+    <Carousel className='crous' activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img className='pic' src={One}/>
         

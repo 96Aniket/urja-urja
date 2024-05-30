@@ -8,8 +8,8 @@ export function Navbar (){
     return(
 
       <>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary m-0 p-0">
+  <div class="container-fluid m-0 p-0">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@ export function Navbar (){
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><p className="pages">Careers</p></a>
+          <a class="nav-link active" aria-current="page" href="/career"><p className="pages">Careers</p></a>
         </li>
 
         <li class="nav-item">
