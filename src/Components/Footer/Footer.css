@@ -1,0 +1,36 @@
+ul{
+    color:rgb(243, 120, 32);
+    font-size: 15pt;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+li{
+    font-size: 12pt;
+    margin: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+.manecardss{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding: 40px 0 ;
+}
+
+.ss{
+    height: 90px;
+    width: auto;
+}
+.hii{
+    width: 300px;
+}
+.last{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(243, 120, 32) ;
+    text-align: center;
+    padding: 10px 0;
+}

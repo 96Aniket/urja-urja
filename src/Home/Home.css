@@ -1,10 +1,4 @@
-nav{
-    padding: 0;
-    margin: 0;
-    z-index: top 0;
-    height: 80px;
-}
-.brandlogo{
+/* .brandlogo{
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -27,16 +21,14 @@ nav{
 .pages{
     color: white;
     font-size: 12pt;
-    margin: 20px 0 0 4px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    margin: 25px 0 0 4px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .pagess{
     color: white;
     font-size: 12pt;
-    margin: 20px 0 0 150px;
+    margin: 25px 0 0 150px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-weight: 500;
 }
 .logosname{
     height: 50px;
@@ -45,4 +37,9 @@ nav{
     
     margin: 25px 0 0 0px;
 }
-
+body{
+    background-image: url("./C:/Users/Shivam/OneDrive/Desktop/urja-urja/src/Home/4907157.jpg");
+    position:fixed;
+    background-size: cover;
+    background-attachment: fixed;
+} */

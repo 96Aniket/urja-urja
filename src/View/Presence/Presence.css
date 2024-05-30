@@ -1,0 +1,20 @@
+.mainheading{
+
+    text-align: center;
+    color: #f97316;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+    
+    }
+    .line{
+        margin-left: 560px;
+        font-size: 80px;
+        margin-top: -100px;
+    }
+
+    .mainimg{
+        width: 1400px;
+        height: 400px;
+        margin-bottom: 20px;
+    }

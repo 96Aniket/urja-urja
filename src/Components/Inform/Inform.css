@@ -1,0 +1,80 @@
+p{
+    font-size: 30pt;
+    color: rgb(242, 111, 17) ;
+    font-family: fantasy;
+    text-align: center;
+}
+h1{
+    font-size: 15pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 50px;
+}
+button{
+    height: 70px;
+    width: 220px;
+    background-color: rgb(242, 111, 17)  ;
+    border: 8px double white;
+    border-radius: 50px;
+    margin: 30px 43%;
+    color: white;
+    font-size: 14pt;
+}
+hr{
+    text-align: center;
+    width: 520px;
+    border: 2px solid rgb(243, 120, 32);
+    margin: 0 0 0 33%;
+    opacity: 1;
+    border-radius: 50px;
+}
+h2{
+    padding: 10px 0 0 34%;
+    font-family: fantasy;
+}
+.pic{
+    height: auto;
+    width: 100%;
+    margin: 50px 0 ;
+}
+.pics{
+    height: auto;
+    width: 90%;
+    margin: 5px 0 5px 90px;
+}
+.manecard{
+    display: flex;
+    justify-content: space-evenly;
+    height: 230px;
+    width: 100%;
+    margin: 5px 0 5px 0px;
+    
+}
+.card{
+    height: auto;
+    width: 280px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin: 30px 0;
+}
+.side{
+    height: 550px;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.manecards{
+    display: flex;
+    height: auto;
+    width: 100%;
+
+}
+
+/* body{
+    background-image: url('./4907157.jpg');
+    
+    background-Size: cover; 
+    background-Repeat: no-repeat;
+}  */
+.sss{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
