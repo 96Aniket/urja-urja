@@ -1,8 +1,12 @@
 import './About.css';
 import img from '../About/windmil.png'
+import { Navbar } from '../../Components/Navbar/Navbar';
+import { Footer } from '../../Components/Footer/Footer';
 function About() {
   return (
+
   <>
+  <Navbar/>
     <div className='container'>
        <div className='text'>
            <h1 className='head'><u>URJA GLOBAL LIMITED</u></h1>
@@ -56,6 +60,7 @@ function About() {
    
     
     </div>
+    <Footer/>
   </>
    
   );
