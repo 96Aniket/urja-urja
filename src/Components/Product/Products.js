@@ -1,5 +1,6 @@
-import './Products.css'
-import 'bootstrap/dist/css/bootstrap.css'  
+import React from 'react';
+import './Products.css';
+import 'bootstrap/dist/css/bootstrap.css' ; 
 
 export default function Scooter(props) {
   return (

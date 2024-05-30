@@ -2,7 +2,6 @@ import Scooter from '../../Components/Product/Products';
 import scooterbanner from '../../Components/Product/scooterbanner.jpeg';
 import scooty from '../../Components/Product/scooty.png';
 import bike from '../../Components/Product/bike.png';
-import Scooter from '../../Components/Product/Products';
 import Navbar  from '../Components/Navbar/Navbar';
 export default function Product(){
     return(
