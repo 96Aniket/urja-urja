@@ -6,9 +6,9 @@ import Home from './View/Home/Home';
 import {Career} from './View/Career/Career-Pooja';
 import {Presence} from './View/Presence/Presence';
 import Card  from '../src/View/Home/Product/Products';
-// import About from './View/About/About';
-// import Catelogue from './View/Catelogue/Catelogue';
-// import Contact from './View/Contact/Contact';
+import About from './View/About/About';
+import Catelogue from './View/Catelogue/Catelogue';
+import Contact from './View/Contact/Contact';
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 
@@ -30,18 +30,18 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
       path:'/Card',
       element:<Card/>
     },
-    // {
-    //   path:'/About',
-    //   element:<About/>
-    // },
-    // {
-    //   path:'/Catelogue',
-    //   element:<Catelogue/>
-    // },
-    // {
-    //   path:'/Contact',
-    //   element:<Contact/>
-    // }
+    {
+      path:'/About',
+      element:<About/>
+    },
+    {
+      path:'/Catelogue',
+      element:<Catelogue/>
+    },
+    {
+      path:'/Contact',
+      element:<Contact/>
+    }
    
     
   ])
