@@ -36,6 +36,7 @@ padding: 20px;
 
  .main {
     display: flex;
+    display: wrap;
     margin: 20px;
     padding: 10px;
 }
@@ -43,6 +44,7 @@ padding: 20px;
 
 
 .box {
+   
     margin-left: -90px;
     margin-right: -90px;
     margin: 15px;
@@ -54,12 +56,14 @@ padding: 20px;
 }
 
 .name {
+    display: wrap;
     font-weight: 700;
     color: #f97316;
     font-family: sans-serif;
 }
 
 .info {
+    
     font-weight: 550;
     color: #1e1e1e;
     font-family: sans-serif;
