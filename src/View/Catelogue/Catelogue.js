@@ -2,7 +2,7 @@ import './Catelogue.css';
 import  Navbar  from '../../Components/Navbar/Navbar';
 import { Footer } from '../../Components/Footer/Footer';
 import img from '../Catelogue/windmil.png';
-import solar from '../Catelogue/solar.jpg';
+import solar from '../Catelogue/solar.png';
 function Catelogue() {
   return (
   <>

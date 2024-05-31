@@ -1,6 +1,6 @@
 import './About.css';
 import img from '../About/windmil.png';
-import solar from '../Catelogue/solar.jpg';
+import solar from '../Catelogue/solar.png';
 import  Navbar  from '../../Components/Navbar/Navbar';
 import { Footer } from '../../Components/Footer/Footer';
 function About() {
