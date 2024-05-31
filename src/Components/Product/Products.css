@@ -38,6 +38,20 @@
     margin-top: -30px;
 
 }
+.singlebtn{
+    height: 60px;
+    width: 160px;
+    position: relative;
+    top: -150px;
+    right: 400px;
+}
+.dblbtn{
+    height: 60px;
+    width: 160px;
+    position: relative;
+    top: -269px;
+    right:200px;   
+}
 .vehicle{
     height: 500px;
     width: 500px;
@@ -54,5 +68,19 @@
 .col{
 margin-left: 530px;
 margin-top: -330px;
+}
+.newbtn{
+    height: 60px;
+    width: 160px;
+    margin-left: 500px;
+    position: relative;
+    top: -200px;
+}
+.oldbtn{
+    height: 60px;
+    width: 160px;
+    margin-left:720px;
+    position: relative;
+    top: -320px;
 }
 

@@ -22,16 +22,16 @@ export default function Scooter(props) {
           an unrivalled range up to 100Kms per charge. It features a sleek & modern design,
           with lightweight and durable frame and is equipped with advance safety features, robust waterproof & dust resistant battery, while 
           the powerful motor provides a smooth & enjoyable ride.</p>
-      
-        {/* <button type='Know More' className='newbtn'>Know More</button>
-<button type='Know More' className='newbtn'>Book Now</button>    */}
-    
+
       </div>
       <div>
       <img className='newimg' src={props.scooty} />
       </div>
       </div>
-     
+     <div>
+     <button type='text' className='singlebtn'>Know More </button>
+    <button type='text' className='dblbtn'>Book Now</button>
+     </div>
         <div>
         <img className='vehicle' src={props.bike}/>
         </div>
@@ -48,9 +48,11 @@ export default function Scooter(props) {
       robust waterproof & dust resistant battery, while 
       the powerful motor provides a smooth & enjoyable ride.The E-ZESS is here to change the way India moves.</p>
     </div>
-    {/* <button type='text' className='imge'>Know More</button>
-<button type='text' className='imge'>Book Now</button> */}
-    </div>
+     </div>
+   <div className='text'>
+   <button type='text' className='newbtn'>Know More </button>
+    <button type='text' className='oldbtn'>Book Now</button>
+   </div>
     </>
 
   )
