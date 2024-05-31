@@ -10,7 +10,8 @@
 }
 .paragraph{
     margin-top: 200px;
-    /* margin-right: 400px; */
+    /* margin-right: 400
+    px; */
     margin-left: 100px;
     text-align: start;
     font-family: 'Raleway', sans-serif;
@@ -41,16 +42,27 @@
 .singlebtn{
     height: 60px;
     width: 160px;
+    border: 4px double white;
+    border-radius: 60px;
+    background-color: #f97316;
     position: relative;
     top: -150px;
-    right: 400px;
+    left: 100px;
+    font-size: 14pt;
+    color: white;
+
 }
 .dblbtn{
     height: 60px;
     width: 160px;
+    border: 4px double white;
+    border-radius: 60px;
+    background-color: #f97316;
     position: relative;
-    top: -269px;
-    right:200px;   
+    top: -150px;
+    left: 130px;
+    font-size: 14pt;
+    color: white;
 }
 .vehicle{
     height: 500px;
@@ -63,6 +75,7 @@
     top: -380px;
     left: 530px;
     color:  #f97316;
+    margin-bottom: -70px;
 
 }
 .col{
@@ -72,15 +85,25 @@ margin-top: -330px;
 .newbtn{
     height: 60px;
     width: 160px;
-    margin-left: 500px;
+    border: 4px double white;
+    border-radius: 60px;
+    background-color: #f97316;
     position: relative;
-    top: -200px;
+    top: -170px;
+    left: 80px;
+    font-size: 14pt;
+    color: white;
 }
 .oldbtn{
     height: 60px;
     width: 160px;
-    margin-left:720px;
+    border: 4px double white;
+    border-radius: 60px;
+    background-color: #f97316;
     position: relative;
-    top: -320px;
+    top: -170px;
+    left: 120px;
+    font-size: 14pt;
+    color: white;
 }
 
