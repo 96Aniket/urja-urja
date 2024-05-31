@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Presence.css'
 import { LocationCard } from '../../Components/Presence/LocationCard-Pooja';
-import img from '../Presence/ournetwork-img.jpg'
+import img1 from '../Presence/ournetwork-img.jpg'
 import { Footer } from '../../Components/Footer/Footer'
 import  Navbar  from '../../Components/Navbar/Navbar';
 
@@ -10,7 +10,8 @@ export function Presence(){
     return (
 <>
 <Navbar/>
-<img src={img} className='mainimg'></img>
+{/* <img src={img1} className='mainimg'></img> */}
+<img src={img1} className='mimg' ></img>
         <h2 className='mainheading'> STORE LOCATION </h2>
                 <p className='line'>_________</p>
                 <p className='des'>URJA GLOBAL LIMITED IS IN ONE OF INDIA'S LEADING RENEWABLE ENERGY DEVELOPERS</p>
