@@ -1,15 +1,13 @@
 .mainheading{
-text-align: center;
-   
+  display: wrap;
+    text-align: center;
     color: #f97316;
     font-family: sans-serif;
     font-weight: 700;
-
-    
-    
     
     }
     .line{
+        display: wrap;
         color: black;
         margin-left: 80px;
         font-size: 80px;
@@ -17,11 +15,13 @@ text-align: center;
     }
 
     .mainimg{
+        display: wrap;
         width: 100%;
         height: 400px;
         margin-bottom: 20px;
     }
     .des{
+        display: wrap;
         text-align: center;
         font-size: medium;
        font-weight: 500;
