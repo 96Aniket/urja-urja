@@ -1,14 +1,28 @@
 .body{
     margin-top: 450px;
 }
-.heading{
-    width: 100%; 
-    text-align: center;   
+.oneclass{margin: 10px 180px;
+
+    /* flex-wrap: wrap; */
+     display:flex;
 }
 .container{
     position: relative;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+   
+}
+.first{
+    color: orange;
+    margin: 10px;
+    text-align: center;
+}
+.heeead{
+    text-align: center;
+    font-size: x-large;
+}
+.contactitem{
+    height: 580px;
 }
 span{
    font-family: monospace;
@@ -17,29 +31,28 @@ h3{
    font-family: arial black;
    color: rgb(46, 44, 44);
 }  
-.head1{
-    font-size: large;
-    color: black;
-} 
-
 .head{
     font-size: larger;
    color: rgb(249 115 22);
 
 }
+.head1{
+    font-size: large;
+    color: black;
+} 
 .row{
     color: rgb(59, 57, 57);
     font-family:tahoma;
     box-shadow: 1px 1px 12px 1px grey ;
-    padding: 0px 30px;
+    padding: 15px 30px;
     display: flex;
     flex-wrap: wrap;
-    width: 550px;
-    margin: 30px;
+    width: 570px;
+    margin: 10px;
 }
 .label{
     height: 40px;
-    width: 500px;
+    width: 450px;
     margin: 10px;
     background-color: rgb(237, 239, 241);
    border: 1px solid grey; 
@@ -55,14 +68,15 @@ label{
 }
 .int{
     height: 80px;
-    width: 500px;
+    width: 450px;
     margin: 10px;
     background-color: rgb(237, 239, 241);
     border: 1px solid grey;
 }
 .btn{
     font-size: larger;
-   padding: 15px 30px;
+   padding: 10px 30px;
+   margin: 10px;
     background-color:rgb(249 115 22) ;
     border-radius: 30px;
     border: 1px solid whitesmoke;
@@ -72,20 +86,22 @@ label{
  display: flex; 
 } */
 .Mailb{
-    box-shadow: 0px 0px 2px 1px grey ;
-    margin: 30px 110px;
+    width: 1130px;
+    box-shadow: 0px 0px 5px 1px grey ;
+    margin: 30px 200px;
     padding: 30px;
-    text-align: center;
+   text-align: center;
 }
 .logosize{ 
  
     height: 40px;
-    margin: 30px 15px;
+    margin: 20px 15px;
     border: 1px solid grey;
     border-radius: 50%;
     display: inline-block;
 }
 .merge{
+    margin: 20px 0px;
     display: flex;
    
 } 
