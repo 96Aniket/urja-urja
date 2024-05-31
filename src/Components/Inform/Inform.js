@@ -18,10 +18,10 @@ export  function Inform (){
         <hr/>
         <h1 className='hh'>A nation-wide network of around 2000 service professionals with tremendous experience</h1>
     <div className='manecard'>
-      <div className='card'><p className='pp'>38</p><h1 className='hh'>Dealer Network</h1></div>
-      <div className='card'><p className='pp'>59</p><h1 className='hh'>Sales & Service Team</h1></div>
-      <div className='card'><p className='pp'>22</p><h1 className='hh'>Distributor Network</h1></div>
-      <div className='card'><p className='pp'>10 Mn</p><h1 className='hh'>Happy Customers</h1></div>
+      <div className='cards'><p className='pp'>38</p><h1 className='hh'>Dealer Network</h1></div>
+      <div className='cards'><p className='pp'>59</p><h1 className='hh'>Sales & Service Team</h1></div>
+      <div className='cards'><p className='pp'>22</p><h1 className='hh'>Distributor Network</h1></div>
+      <div className='cards'><p className='pp'>10 Mn</p><h1 className='hh'>Happy Customers</h1></div>
     </div>
     <div className='manecards'>
         <div><img src={D1} className='side' alt="..."/></div>

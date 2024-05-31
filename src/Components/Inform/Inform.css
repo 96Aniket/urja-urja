@@ -3,6 +3,7 @@
     color: rgb(242, 111, 17) ;
     font-family: fantasy;
     text-align: center;
+    margin: 5px;
 }
 .hh{
     font-size: 15pt;
@@ -50,11 +51,13 @@ hr{
     margin: 5px 0 5px 0px;
     
 }
-.card{
-    height: 200px;
+.cards{
+    height: 150px;
     width: 280px;
     box-shadow: 1px 1px 1px 1px gray;
-    margin: 30px 0;
+    margin: 50px 0 0 0;
+    background-color: white;
+    border-radius: 10px;
 }
 .side{
     height: 550px;
