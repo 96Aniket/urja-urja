@@ -24,11 +24,13 @@ export default function Scooter(props) {
           the powerful motor provides a smooth & enjoyable ride.</p>
 
       </div>
+      
       <div>
       <img className='newimg' src={props.scooty} />
       </div>
+      
       </div>
-     <div>
+      <div>
      <button type='text' className='singlebtn'>Know More </button>
     <button type='text' className='dblbtn'>Book Now</button>
      </div>
